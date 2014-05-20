@@ -10,3 +10,5 @@
 /ltmain.sh
 /Makefile.in
 /missing
+/.cproject
+/aclocal.m4
