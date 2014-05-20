@@ -1,0 +1,13 @@
+Hack to run performance tests on WDB database
+
+Requires wdbConfiguration to be accessible in PATH
+
+To use:
+./autogen.sh
+./configure
+make
+wciPerformanceTest.sh
+
+If everything compiled correctly, that should do the trick.
+
+
