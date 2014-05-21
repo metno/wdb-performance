@@ -45,10 +45,10 @@ echo "Rows Returned: $averageRows per second"
 
 if cat ${TMP_PATH}/$TESTCASE_FILE.out | grep -qE 'Error'
 then
-    echo -e "not ok - `basename $0`\t$TEST_DESCRIPTION (incomplete output)"
+    echo "not ok - `basename $0`\t$TEST_DESCRIPTION (incomplete output)"
     exit 1
 fi
 
 # Exit
-echo -e "ok - `basename $0`\t$TEST_DESCRIPTION"
+echo "ok - `basename $0`\t$TEST_DESCRIPTION"
 exit 0

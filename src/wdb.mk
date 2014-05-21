@@ -42,9 +42,12 @@ WCIPERFTEST_SOURCES =	src/caseP001_01.in.test \
 						src/caseP003_02.in.test \
 						src/caseP003_03.in.test \
 						src/caseP003_04.in.test \
+						src/caseP003_05.in.test \
 						src/caseP004_01.in.test \
 						src/caseP004_02.in.test \
-						src/caseP004_03.in.test
+						src/caseP004_03.in.test \
+						src/caseP004_04.in.test \
+						src/caseP004_05.in.test
 
 WCIPERFTEST_SUPPORT =	src/buildUp.in.sh \
 						src/tearDown.in.sh \

@@ -100,4 +100,4 @@ $TEST_WRITE --dataprovider 'test wci 0' --placename 'proff grid' --reftime 1980-
 psql `__WDB_BINDIR__/wdbConfiguration --psqlArgs` -q -c "ANALYZE;"
 
 # Exit
-echo -e "done"
+echo "done"
